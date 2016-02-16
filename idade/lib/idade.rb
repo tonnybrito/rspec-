@@ -2,7 +2,7 @@ class Idade
 
   def self.max (idade)
     if idade == 0
-     return 180 - 0
+     return 170 + 10
     end
     if idade == 20
       return 180 - 20

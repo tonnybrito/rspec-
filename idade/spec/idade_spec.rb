@@ -7,7 +7,6 @@ describe Idade do
         expect(Idade.max(0)).to eql(180)
       end
     end
-
     context "Se a idade for 20" do
       it "returns 160" do
         expect(Idade.max(20)).to eql(160)
