@@ -1,4 +1,3 @@
-idade_specsource 'https://rubygems.org'
-times_specsource 'https://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'rspec'
