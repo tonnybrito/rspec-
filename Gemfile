@@ -1,3 +1,3 @@
-source 'https://rubygems.org'
+idade_specsource 'https://rubygems.org'
 
 gem 'rspec'
