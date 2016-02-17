@@ -29,3 +29,15 @@ class Carioca #crie uma classe a ser usada no arquivo times_spec.rb
   end
 end
 
+class Mensagem
+  def self.ois (cumprimentos)
+    return cumprimentos
+  end
+end
+#---------------------------------------------------------
+
+class Test
+  def teste1 (nome:, id:)
+   "#{nome} - #{id}"
+  end
+end
