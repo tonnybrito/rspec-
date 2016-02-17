@@ -4,7 +4,7 @@ describe Brasileirao do
   describe ".bra" do
     context "Se o brasileirão tiver o time flamengo" do
       it "return Flamengo RJ" do
-       expect(Brasileirao.bra("Flameng")).to eql("Flamengo")
+       expect(Brasileirao.bra("Flamengo")).to eql("Flamengo")
       end
     end
     context "Se o brasileirão tiver o time Vasco" do
