@@ -1,7 +1,8 @@
 class Brasileirao
 
-  def self.bra (times)
-    return times
+  def self.bra (times) # def = defina ( self=modulo / .=receptor / bra=metodo (times)=parametro).
+    #defina um modulo com um metodo e um parametro.
+    return times # retorne um parametro
   #  if times == "Flamengo"
   #    return "Flamengo"
   #  end
@@ -19,3 +20,12 @@ class Brasileirao
   #  end
   end
 end
+
+class Carioca #crie uma classe a ser usada no arquivo times_spec.rb
+  def self.car (times_do_carica)  # def = defina ( self=modulo / .=receptor / bra=metodo (times)=parametro).
+     #defina um modulo com um metodo e um parametro.
+    return times_do_carica
+    # retorne um parametro
+  end
+end
+
